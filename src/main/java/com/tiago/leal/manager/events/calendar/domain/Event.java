@@ -34,7 +34,7 @@ public class Event {
 
     private  boolean transport;
 
-    private LocalDate date;
+    private LocalDate eventDate;
 
     @Enumerated(EnumType.STRING)
     private DayShift dayShift;
